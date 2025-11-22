@@ -1,8 +1,9 @@
+streamlit==1.39.0
+ultralytics==8.2.50
+opencv-python-headless==4.9.0.80
+numpy==1.26.4
 # flask==3.0.0
 # flask-cors==4.0.0
 # flask run --host=0.0.0.0 --port=5000
 # streamlit run app.py
-streamlit==1.39.0
-ultralytics==8.3.0
-opencv-python-headless==4.9.0.80
-numpy==1.26.4
+
