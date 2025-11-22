@@ -15,7 +15,7 @@ os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 # Flask
 app = Flask(__name__)
-CORS(app, origins="*")  # à restreindre en prod
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 # Charge YOLO une seule fois
 try:
